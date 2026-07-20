@@ -209,6 +209,13 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# OS / editor junk
+.DS_Store
+.vscode/
+
+# TODO: once the ingestion pipeline exists (after Prompt A), add local
+# vector index / embedding store files here (e.g. chroma_db/, *.index, faiss_index/)
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
